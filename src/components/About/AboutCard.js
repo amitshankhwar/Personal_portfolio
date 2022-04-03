@@ -29,9 +29,9 @@ function AboutCard() {
               <ImPointRight /> Travelling
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "If my mind can conceive it, and my heart can believe it—then I can achieve it"{" "}
+          <br></br>
+          <p style={{ color: "#c770f0" }}>
+            "If my mind can conceive it, and my heart can believe it,<br></br>then I can achieve it"{" "}
           </p>
           <footer className="blockquote-footer">Muhammad Ali</footer>
         </blockquote>

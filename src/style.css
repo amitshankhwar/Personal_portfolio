@@ -440,7 +440,7 @@ button:focus {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #ffffff !important;
 }
 /* --------- */
 /* Projects */
@@ -748,12 +748,13 @@ button:focus {
   padding-bottom: 70px !important;
   padding-top: 70px !important;
   background-image: var(--section-background-color) !important;
+  min-height: calc(100vh - 4rem);
 }
 
 .contact-about-description {
   color: white !important;
-  padding-top: 80px !important;
-  padding-bottom: 20px !important;
+  padding-top: 100px !important;
+  padding-bottom: 58px !important;
   text-align: center;
 }
 
@@ -766,6 +767,7 @@ button:focus {
 .contact-about-social {
   text-align: center !important;
   padding-top: 40px;
+  padding-bottom: 10px;
   color: white !important;
 }
 
