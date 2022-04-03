@@ -80,7 +80,7 @@ function Home2() {
                   <GrMail />
                 </a>
               </li>   
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="tel: +918921180389"
                   target="_blank"
@@ -89,7 +89,7 @@ function Home2() {
                 >
                   <FiPhoneCall />
                 </a>
-              </li>   
+              </li>    */}
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/abhirams2020/"

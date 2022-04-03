@@ -94,9 +94,9 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="mailto: abhirams2020@gmail.com"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/contact"
+                onClick={() => updateExpanded(false)}
               >
                 <FiPhoneCall style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
