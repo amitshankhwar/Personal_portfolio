@@ -6,11 +6,14 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiOutlineMail
 } from "react-icons/ai";
 import {
   SiLeetcode
 } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
+import {FiPhoneCall} from "react-icons/fi"
+import {GrMail} from "react-icons/gr";
 
 function Home2() {
   return (
@@ -67,6 +70,26 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="mailto: abhirams2020@gmail.com"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <GrMail />
+                </a>
+              </li>   
+              <li className="social-icons">
+                <a
+                  href="tel: +918921180389"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <FiPhoneCall />
+                </a>
+              </li>   
               <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/abhirams2020/"
