@@ -4,11 +4,13 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillMail
 } from "react-icons/ai";
 import {
   SiLeetcode
 } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
+import {GrMail} from "react-icons/gr";
 
 function Footer() {
   let date = new Date();
@@ -17,13 +19,23 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Abhiram S</h3>
+          <h3>Made with ❤️ by Abhiram S</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} </h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
+            <li className="social-icons">
+              <a
+                href="mailto: abhirams2020@gmail.com"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <GrMail />
+              </a>
+            </li>   
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/abhirams2020/"

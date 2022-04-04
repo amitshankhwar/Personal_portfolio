@@ -36,16 +36,16 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiReact />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiCss3 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiHtml5 />
-      </Col>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
         <SiPostgresql />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiGnubash />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
@@ -53,7 +53,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiMicrosoftexcel />
-      </Col>
+      </Col> */}
     </Row>
   );
 }

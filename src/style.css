@@ -248,6 +248,7 @@ button:focus {
   background-size: cover !important;
   width: 100%;
   height: 100%;
+  z-index: -1
 }
 
 .home-header {
@@ -256,12 +257,12 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
+  background-image: var(--section-background-color) !important;
   background-position: top center;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-bottom: 50px !important;
+  padding-top: 50px !important;
 }
 
 .home-content {
@@ -321,14 +322,14 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
-  /* background-image: var(--section-background-color) !important;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
+  /* background-image: var(--section-background-color) !important; */
+  /* background-image: var(--image-gradient-alt), url(./Assets/home-bg.jpg); */
 }
 
 .home-about-description {
   color: white !important;
   padding-top: 100px !important;
-  padding-bottom: 20px !important;
+  padding-bottom: 100px !important;
   text-align: center;
 }
 
@@ -609,6 +610,7 @@ button:focus {
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
   color: white !important;
+  min-height: calc(100vh - 60px);
 }
 
 .resume {
@@ -748,26 +750,26 @@ button:focus {
   padding-bottom: 70px !important;
   padding-top: 70px !important;
   background-image: var(--section-background-color) !important;
-  min-height: calc(100vh - 4rem);
+  min-height: calc(100vh - 60px);
 }
 
 .contact-about-description {
   color: white !important;
   padding-top: 100px !important;
-  padding-bottom: 58px !important;
+  /* padding-bottom: 60px !important; */
   text-align: center;
 }
 
 .contact-about-body {
-  padding-top: 20px;
+  padding-top: 50px;
   font-size: 1.2em !important;
   text-align: center;
 }
 
 .contact-about-social {
   text-align: center !important;
-  padding-top: 40px;
-  padding-bottom: 10px;
+  padding-top: 70px;
+  /* padding-bottom: 10px; */
   color: white !important;
 }
 

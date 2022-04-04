@@ -2,12 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import traffic from "../../Assets/Projects/traffic.png";
+import todo from "../../Assets/Projects/todo.png";
+import attendance from "../../Assets/Projects/attendance.png";
 
 function Projects() {
   return (
@@ -23,17 +20,17 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={traffic}
               isBlog={false}
               title="Traffic Signal Optimization"
-              description="This project is an attempt to improve the efficiency of traffic signal control and reduce traffic delay at intersections by using optimization algorithms like Ant Colony Optimization algorithm (ACO), Genetic algorithm (GA) and Bat Algorithm (BA). The objective is to optimize signal timings at isolated and coordinated signals, such that the traffic network efficiency is improved, and traffic delays are reduced."
+              description="This project is an attempt to improve the efficiency of traffic signal control and reduce traffic delay at intersections by using optimization algorithms like Ant Colony Optimization algorithm (ACO), Genetic algorithm (GA) and Bat Algorithm (BA)."
               link="https://github.com/abhirams2020/Traffic-Signal-Optimization"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={todo}
               isBlog={false}
               title="Personal Schedule Manager"
               description="This is a web app for managing schedules which notifies when task needs to be done. The features include user registration, setting time and date of task. This project introduced me to Web Development. This was done as a part of Genskill Fullstack Bootcamp."
@@ -43,10 +40,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={attendance}
               isBlog={false}
               title="Eduserver Attendance Automation Tool"
-              description="By using python for web scraping, the program identifies the location of the present option, marks the attendance on eduserver and also opens the corresponding class at the right time. Users can input username and password and modify the timetable file to mark attendance efficiently."
+              description="By using python for web scraping, the program marks the attendance on eduserver and also opens the corresponding class at the right time. Users can input username and password in the auto.py file and modify the timetable.py file to use the program."
               link="https://github.com/abhirams2020/eduserver-attendance-automate"
             />
           </Col>

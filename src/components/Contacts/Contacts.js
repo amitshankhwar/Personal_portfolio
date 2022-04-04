@@ -18,8 +18,10 @@ import {
   SiLeetcode
 } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
-import {FiPhoneCall} from "react-icons/fi"
+import {ImPhone} from "react-icons/im"
 import {GrMail} from "react-icons/gr";
+import { Formik, Form, Field, ErrorMessage } from 'formik';
+
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 
@@ -44,9 +46,9 @@ function Contacts() {
                 How to <span className="purple"> Contact </span> me?
               </h1>
               <p className="contact-about-body">
-                E-Mail : <b className="purple"> abhirams2020@gmail.com </b><br></br>
-                Phone  : <b className="purple"> +91 8921180389 </b><br></br>
-                Address : <b className="purple"> Narayaneeyam, Chempazhanthy, Trivandrum</b>
+                <b className="purple"> E-Mail : </b> abhirams2020@gmail.com <br></br>
+                <b className="purple">Phone  : </b> +91 8921180389 <br></br>
+                <b className="purple">Address : </b> Narayaneeyam, Chempazhanthy, Trivandrum
               </p>
             </Col>
             {/* <Col md={4} className="myAvtar">
@@ -56,11 +58,12 @@ function Contacts() {
             </Col> */}
           </Row>
           <Row>
-            <Col md={12} className="contact-about-social">
-              <h1>FIND ME ON</h1>
+            <Col md={12} className="contact-about-social">              
               <p>
                 Feel free to <span className="purple">connect </span>with me
               </p>
+              <h1>FIND ME ON</h1>
+
               <ul className="contact-about-social-links">
                 <li className="social-icons">
                   <a
@@ -79,7 +82,7 @@ function Contacts() {
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
                   >
-                    <FiPhoneCall />
+                    <ImPhone />
                   </a>
                 </li>   
                 <li className="social-icons">

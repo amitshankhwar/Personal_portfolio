@@ -1,6 +1,7 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
 import { ImPointRight } from "react-icons/im";
+import { FaHandPointRight } from "react-icons/fa";
 
 function AboutCard() {
   return (
@@ -17,16 +18,19 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Cricket
+              <FaHandPointRight /> Playing Cricket
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Movies and Anime
+              <FaHandPointRight /> Sketching
             </li>
             <li className="about-activity">
-              <ImPointRight /> Linux Theming
+              <FaHandPointRight /> Watching Movies and Anime
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <FaHandPointRight /> Linux Theming
+            </li>
+            <li className="about-activity">
+              <FaHandPointRight /> Travelling
             </li>
           </ul>
           <br></br>

@@ -20,10 +20,10 @@ function Particle() {
           },
           move: {
             direction: "right",
-            speed: 0.05,
+            speed: 0.1,
           },
           size: {
-            value: 1,
+            value: 2,
           },
           opacity: {
             anim: {
