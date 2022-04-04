@@ -20,7 +20,6 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 import {ImPhone} from "react-icons/im"
 import {GrMail} from "react-icons/gr";
-import { Formik, Form, Field, ErrorMessage } from 'formik';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
