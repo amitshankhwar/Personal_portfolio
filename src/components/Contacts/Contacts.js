@@ -61,7 +61,7 @@ function Contacts() {
               <p>
                 Feel free to <span className="purple">connect </span>with me
               </p>
-              <h1>FIND ME ON</h1>
+              <h1><span className="purple">FIND</span> ME ON</h1>
 
               <ul className="contact-about-social-links">
                 <li className="social-icons">
@@ -69,7 +69,7 @@ function Contacts() {
                     href="mailto: abhirams2020@gmail.com"
                     target="_blank"
                     rel="noreferrer"
-                    className="icon-colour  home-social-icons"
+                    className="icon-colour  contact-social-icons"
                   >
                     <GrMail />
                   </a>
@@ -79,7 +79,7 @@ function Contacts() {
                     href="tel: +918921180389"
                     target="_blank"
                     rel="noreferrer"
-                    className="icon-colour  home-social-icons"
+                    className="icon-colour  contact-social-icons"
                   >
                     <ImPhone />
                   </a>
@@ -89,7 +89,7 @@ function Contacts() {
                     href="https://www.linkedin.com/in/abhirams2020/"
                     target="_blank"
                     rel="noreferrer"
-                    className="icon-colour  home-social-icons"
+                    className="icon-colour  contact-social-icons"
                   >
                     <FaLinkedinIn />
                   </a>
@@ -99,7 +99,7 @@ function Contacts() {
                     href="https://github.com/abhirams2020"
                     target="_blank"
                     rel="noreferrer"
-                    className="icon-colour  home-social-icons"
+                    className="icon-colour  contact-social-icons"
                   >
                     <AiFillGithub />
                   </a>
@@ -109,7 +109,7 @@ function Contacts() {
                     href="https://leetcode.com/abhirams2020"
                     target="_blank"
                     rel="noreferrer"
-                    className="icon-colour  home-social-icons"
+                    className="icon-colour  contact-social-icons"
                   >
                     <SiLeetcode />
                   </a>
@@ -119,7 +119,7 @@ function Contacts() {
                     href="https://twitter.com/abhirams20201"
                     target="_blank"
                     rel="noreferrer"
-                    className="icon-colour  home-social-icons"
+                    className="icon-colour  contact-social-icons"
                   >
                     <AiOutlineTwitter />
                   </a>
