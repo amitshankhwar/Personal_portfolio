@@ -25,7 +25,7 @@
 
 ## Built With
 
-My personal portfolio <a href="[Abhiram S | Portfolio (abhirams2020.netlify.app)](https://abhirams2020.netlify.app/)" target="_blank">abhirams2020.netlify.app</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://abhirams2020.netlify.app" target="_blank">abhirams2020.netlify.app</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
