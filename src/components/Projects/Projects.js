@@ -22,7 +22,7 @@ function Projects() {
             <ProjectCard
               imgPath={traffic}
               isBlog={false}
-              title="Traffic Signal Optimization"
+              title="Traffic Signal Timing Optimization"
               description="This project is an attempt to improve the efficiency of traffic signal control and reduce traffic delay at intersections by using optimization algorithms like Ant Colony Optimization algorithm (ACO), Genetic algorithm (GA) and Bat Algorithm (BA)."
               link="https://github.com/abhirams2020/Traffic-Signal-Optimization"
             />

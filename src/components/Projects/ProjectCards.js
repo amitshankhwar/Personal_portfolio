@@ -7,9 +7,9 @@ function ProjectCards(props) {
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
-      <Card.Body>
-        <Card.Title>{props.title}</Card.Title>
-        <Card.Text style={{ textAlign: "justify" }}>
+      <Card.Body style={{padding: "20px"}}>
+        <Card.Title className="tech-icons-text">{props.title}</Card.Title>
+        <Card.Text className="project-card-text" style={{ textAlign: "justify", paddingTop: "5%"}}>
           {props.description}
         </Card.Text>
         <Button variant="primary" href={props.link} target="_blank">
