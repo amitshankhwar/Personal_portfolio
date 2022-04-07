@@ -362,7 +362,7 @@ button:focus {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: rgba(33, 33, 33, 0.819) !important;
+  background: #c573e633 !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
@@ -375,7 +375,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #c573e633;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -464,7 +464,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 0 5px 5px rgba(119, 53, 136, 0.459) !important;
+  /* box-shadow: 0 0 5px 5px rgba(119, 53, 136, 0.459) !important; */
   color: white !important;
   background-color: transparent !important;
   opacity: 1 !important;
@@ -472,6 +472,7 @@ button:focus {
   height: 100% !important;
   border-radius: 20px !important;
   padding: 5%;
+  border: 2.2px solid rgba(200, 137, 230, 0.637) !important;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
@@ -486,6 +487,8 @@ button:focus {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.93) !important;
+  transition: 0.5s !important;
 }
 
 .blog-card-view {
@@ -561,7 +564,7 @@ button:focus {
 
 .tech-icons-text {
   font-size: 20px;
-  background-color: rgba(197, 115, 230, 0.199)!important;
+  background-color: #c573e633 !important;
   border-color: white;
   border-style: none;
   /* margin: 0 60px; */
@@ -575,7 +578,7 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  border: 2.2px solid rgba(200, 137, 230, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 20px !important;
@@ -593,8 +596,10 @@ button:focus {
 
 .tech-icons:hover {
   transform: scale(1.05) !important;
+  transition: 0.5s !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.93) !important;
+  box-shadow: 0 0 5px 5px rgba(129, 72, 144, 0.561) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -706,6 +711,12 @@ button:focus {
   border: 2px solid #8a49a8;
 }
 
+.resume-doc {
+  /* opacity: 0.7; */
+  border: 10px outset #c573e6a3 !important;
+  border-radius: 10px;
+}
+
 .like-item {
   padding-top: 10px !important;
   font-size: 1.1em !important;
@@ -770,7 +781,7 @@ button:focus {
   padding-bottom: 70px !important;
   padding-top: 70px !important;
   background-image: var(--section-background-color) !important;
-  min-height: calc(100vh - 60px);
+  min-height: calc(100vh - 58px);
 }
 
 .contact-about-description {
@@ -809,7 +820,7 @@ button:focus {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: rgba(33, 33, 33, 0.819) !important;
+  background: #c573e633 !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
@@ -822,7 +833,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #68187a;
+  background: #c573e633;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
