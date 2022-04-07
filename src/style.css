@@ -362,7 +362,7 @@ button:focus {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
+  background: rgba(33, 33, 33, 0.819) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
@@ -399,7 +399,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #ffffffe7 !important;
 }
 
 /* --------- */
@@ -792,7 +792,7 @@ button:focus {
   text-align: center !important;
   font-size: 1.2em !important;
   line-height: 2em !important;
-  background: rgba(255, 255, 255, 0.972) !important;
+  background: rgba(33, 33, 33, 0.819) !important;
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
