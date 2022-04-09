@@ -163,7 +163,7 @@ function Home() {
                     <SiGeeksforgeeks />
                   </a>
                 </li>
-                <li className="social-icons">
+                {/* <li className="social-icons">
                   <a
                     href="https://twitter.com/abhirams20201"
                     target="_blank"
@@ -172,7 +172,7 @@ function Home() {
                   >
                     <AiOutlineTwitter />
                   </a>
-                </li>
+                </li> */}
 
               </ul>
             </Col>
