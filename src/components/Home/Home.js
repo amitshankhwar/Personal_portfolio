@@ -64,10 +64,10 @@ function Home() {
                 LET ME <span className="purple"> INTRODUCE </span> MYSELF
               </h1>
               <p className="home-about-body">
-                I am a final year Civil Engineering student in <b className="purple">NIT Calicut</b> with 8 CGPA so far.
+                I am a B.Tech graduate in Civil Engineering from <b className="purple">NIT Calicut</b> with a CGPA of 8.1.
                 <br />
-                <br />I am fluent in langauges like
-                <b className="purple"> C++, Python, Javascript and SQL.</b>
+                <br />I am proficient in langauges like
+                <b className="purple"> C++, Python, Javascript</b> and <b className="purple">SQL.</b>
                 <br />
                 <br />
                 My field of Interest's are building and designing&nbsp;

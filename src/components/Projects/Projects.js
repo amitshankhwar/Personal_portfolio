@@ -23,7 +23,7 @@ function Projects() {
               imgPath={traffic}
               isBlog={false}
               title="Traffic Signal Timing Optimization"
-              description="This project is an attempt to improve the efficiency of traffic signal control and reduce traffic delay at intersections by using optimization algorithms like Ant Colony Optimization algorithm (ACO), Genetic algorithm (GA) and Bat Algorithm (BA)."
+              description="This project was an attempt to improve the efficiency of traffic flow and reduce traffic delay at intersections by using Ant Colony Optimization algorithm (ACO) and Genetic algorithm (GA). The ACO algorithm produced better results and the total delay was reduced by 22 %."
               link="https://github.com/abhirams2020/Traffic-Signal-Optimization"
             />
           </Col>

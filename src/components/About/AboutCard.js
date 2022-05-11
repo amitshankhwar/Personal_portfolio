@@ -18,16 +18,16 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <FaHandPointRight /> Playing Cricket
+              <FaHandPointRight /> Distrohopping
             </li>
             <li className="about-activity">
-              <FaHandPointRight /> Sketching
-            </li>
-            <li className="about-activity">
-              <FaHandPointRight /> Watching Movies and Anime
+              <FaHandPointRight /> Android Rooting
             </li>
             <li className="about-activity">
               <FaHandPointRight /> Linux Theming
+            </li>
+            <li className="about-activity">
+              <FaHandPointRight /> Sketching
             </li>
             <li className="about-activity">
               <FaHandPointRight /> Travelling
