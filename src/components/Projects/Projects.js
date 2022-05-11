@@ -23,7 +23,7 @@ function Projects() {
               imgPath={traffic}
               isBlog={false}
               title="Traffic Signal Timing Optimization"
-              description="This project was an attempt to improve the efficiency of traffic flow and reduce traffic delay at intersections by using Ant Colony Optimization algorithm (ACO) and Genetic algorithm (GA). The ACO algorithm produced better results and the total delay was reduced by 22 %."
+              description="This project was an attempt to improve the efficiency of traffic flow and reduce traffic delay at intersections by using Ant Colony Optimization algorithm (ACO) and Genetic algorithm (GA). The ACO algorithm produced much better results and the total delay was reduced by 22%."
               link="https://github.com/abhirams2020/Traffic-Signal-Optimization"
             />
           </Col>
@@ -33,7 +33,7 @@ function Projects() {
               imgPath={todo}
               isBlog={false}
               title="Personal Schedule Manager"
-              description="This is a web app for managing schedules which notifies when task needs to be done. The features include user registration, setting time and date of task. This project introduced me to Web Development. This was done as a part of Genskill Fullstack Bootcamp."
+              description="This is a web app for managing schedules which notifies the user when task needs to be done. The features include user registration, setting time and date of task. This project introduced me to Web Development. This was done as a part of Genskill Fullstack Bootcamp."
               link="https://github.com/abhirams2020/personal-schedule-manager"
             />
           </Col>
@@ -43,7 +43,7 @@ function Projects() {
               imgPath={attendance}
               isBlog={false}
               title="Eduserver Attendance Automation Tool"
-              description="By using python for web scraping, the program marks the attendance on eduserver and also opens the corresponding class at the right time. Users can input username and password in the auto.py file and modify the timetable.py file to use the program."
+              description="By using python for web scraping, the program marks the attendance on Eduserver and opens the online class at the right time. Users can input username and password in the auto.py file and modify the timetable.py file to run the program and maintain 100% attendance."
               link="https://github.com/abhirams2020/eduserver-attendance-automate"
             />
           </Col>

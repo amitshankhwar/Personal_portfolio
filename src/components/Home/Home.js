@@ -70,7 +70,7 @@ function Home() {
                 <b className="purple"> C++, Python, Javascript</b> and <b className="purple">SQL.</b>
                 <br />
                 <br />
-                My field of Interest's are building and designing&nbsp;
+                My fields of interest are building and designing&nbsp;
                 <b className="purple">Websites</b>
                 , practicing
                 <b className="purple"> Data Structures and Algorithms problems </b>
