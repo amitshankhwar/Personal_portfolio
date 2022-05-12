@@ -15,6 +15,7 @@ import {
 } from "react-icons/ai";
 import {FiPhoneCall} from "react-icons/fi"
 import { CgFileDocument } from "react-icons/cg";
+import { VscRepoForked } from "react-icons/vsc";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -101,15 +102,26 @@ function NavBar() {
                 <FiPhoneCall style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
             </Nav.Item>
-
+            
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/abhirams2020/abhirams2020_portfolio"
                 target="_blank"
                 className="fork-btn-inner"
               >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                <AiFillStar style={{ fontSize: "1.1em" }} />
+                <AiFillStar style={{ fontSize: "1.1em" }} />{" "}
+                Star
+              </Button>
+            </Nav.Item>
+
+            <Nav.Item className="fork-btn">
+              <Button
+                href="https://github.com/abhirams2020/abhirams2020_portfolio/fork"
+                target="_blank"
+                className="fork-btn-inner"
+              >
+                <VscRepoForked style={{ fontSize: "1.2em" }} />{" "}
+                Fork
               </Button>
             </Nav.Item>
           </Nav>

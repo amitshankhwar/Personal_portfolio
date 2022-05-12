@@ -48,10 +48,10 @@ function Particle() {
               }
             },
             "number": {
-              "value": 200,
+              "value": 50,
               "density": {
-                "enable": false,
-                "value_area": 800
+                "enable": true,
+                "value_area": 1000
               }
             },
             "color": {
