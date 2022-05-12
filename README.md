@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://abhirams2020.netlify.app" target="_blank">abhirams2020.netlify.app</a>
+  <a href="https://abhirams2020.vercel.app" target="_blank">abhirams2020.vercel.app</a>
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />
@@ -25,7 +25,7 @@
 
 ## Built With
 
-My personal portfolio <a href="https://abhirams2020.netlify.app" target="_blank">abhirams2020.netlify.app</a> which features some of my github projects as well as my resume and technical skills.<br/>
+My personal portfolio <a href="https://abhirams2020.vercel.app" target="_blank">abhirams2020.vercel.app</a> which features some of my github projects as well as my resume and technical skills.<br/>
 
 This project was built using these technologies.
 
@@ -34,7 +34,7 @@ This project was built using these technologies.
 - Express.js
 - CSS3
 - VsCode
-- Netlify
+- Vercel
 
 ## Features
 
