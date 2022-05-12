@@ -48,10 +48,10 @@ function Particle() {
               }
             },
             "number": {
-              "value": 50,
+              "value": 200,
               "density": {
-                "enable": true,
-                "value_area": 1000
+                "enable": false,
+                "value_area": 800
               }
             },
             "color": {
@@ -112,18 +112,18 @@ function Particle() {
           "interactivity": {
             "events": {
               "onHover": {
-                "enable": true,
-                "mode": "grab"
+                "enable": false,
+                "mode": "repulse"
               },
               "onClick": {
                 "enable": true,
-                "mode": "none"
+                "mode": "push"
               },
               "resize": true
             },
             "modes": {
               "grab": {
-                "distance": 100,
+                "distance": 400,
                 "links": {
                   "opacity": 1
                 }
