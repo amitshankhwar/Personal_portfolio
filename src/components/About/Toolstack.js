@@ -31,8 +31,8 @@ function Toolstack() {
         <p className="tech-icons-text">Docker</p>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiNetlify />
-        <p className="tech-icons-text">Netlify</p>
+        <SiVercel />
+        <p className="tech-icons-text">Vercel</p>
       </Col>
     </Row>
   );
