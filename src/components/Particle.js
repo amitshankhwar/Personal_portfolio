@@ -48,7 +48,7 @@ function Particle() {
               }
             },
             "number": {
-              "value": 100,
+              "value": 200,
               "density": {
                 "enable": false,
                 "value_area": 800
