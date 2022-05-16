@@ -48,7 +48,7 @@ function Particle() {
               }
             },
             "number": {
-              "value": 200,
+              "value": 100,
               "density": {
                 "enable": false,
                 "value_area": 800
@@ -76,10 +76,10 @@ function Particle() {
               }
             },
             "size": {
-              "value": 3
+              "value": 2
             },
             "links": {
-              "enable": true,
+              "enable": false,
               "distance": 100,
               "color": "#ffffff",
               "opacity": 0.5,
@@ -91,9 +91,9 @@ function Particle() {
                 "offset": 0
               },
               "enable": true,
-              "speed": 2,
+              "speed": 1,
               "direction": "right",
-              "random": false,
+              "random": true,
               "straight": false,
               "outModes": {
                 "default": "out"
@@ -116,7 +116,7 @@ function Particle() {
                 "mode": "repulse"
               },
               "onClick": {
-                "enable": true,
+                "enable": false,
                 "mode": "push"
               },
               "resize": true
