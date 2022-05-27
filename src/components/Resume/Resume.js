@@ -41,7 +41,7 @@ function ResumeNew() {
           </Document>
         </Row>
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
             href={pdf}
@@ -51,7 +51,7 @@ function ResumeNew() {
             <AiOutlineDownload />
             &nbsp;Download Resume
           </Button>
-        </Row>
+        </Row> */}
       </Container>
     </div>
   );
