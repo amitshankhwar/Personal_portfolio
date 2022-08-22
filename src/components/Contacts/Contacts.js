@@ -45,9 +45,9 @@ function Contacts() {
                 How to <span className="purple"> Contact </span> me?
               </h1>
               <p className="contact-about-body">
-                <b className="purple"> E-Mail : </b> abhirams2020@gmail.com <br></br>
-                <b className="purple">Phone  : </b> +91 8921180389 <br></br>
-                <b className="purple">Address : </b> Narayaneeyam, Chempazhanthy, Trivandrum
+                <b className="purple"> E-Mail : </b> amit18shankhwar@gmail.com <br></br>
+                <b className="purple">Phone  : </b> +91 9119211569 <br></br>
+                <b className="purple">Address : </b> Shiddhi Vinayak Sogriya Road, Kota(Rajasthan)
               </p>
             </Col>
             {/* <Col md={4} className="myAvtar">
@@ -66,7 +66,7 @@ function Contacts() {
               <ul className="contact-about-social-links">
                 <li className="social-icons">
                   <a
-                    href="mailto: abhirams2020@gmail.com"
+                    href="mailto: amit18shankhwar@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  contact-social-icons"
@@ -76,7 +76,7 @@ function Contacts() {
                 </li>   
                 <li className="social-icons">
                   <a
-                    href="tel: +918921180389"
+                    href="tel: +919119211569"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  contact-social-icons"
@@ -86,7 +86,7 @@ function Contacts() {
                 </li>   
                 <li className="social-icons">
                   <a
-                    href="https://www.linkedin.com/in/abhirams2020/"
+                    href="https://www.linkedin.com/in/amit-shankhwar-b95829196/"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  contact-social-icons"
@@ -96,7 +96,7 @@ function Contacts() {
                 </li>              
                 <li className="social-icons">
                   <a
-                    href="https://github.com/abhirams2020"
+                    href="https://github.com/amitshankhwar"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  contact-social-icons"
@@ -104,26 +104,6 @@ function Contacts() {
                     <AiFillGithub />
                   </a>
                 </li>
-                {/* <li className="social-icons">
-                  <a
-                    href="https://leetcode.com/abhirams2020"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour  contact-social-icons"
-                  >
-                    <SiLeetcode />
-                  </a>
-                </li> */}
-                {/* <li className="social-icons">
-                  <a
-                    href="https://twitter.com/abhirams20201"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="icon-colour  contact-social-icons"
-                  >
-                    <AiOutlineTwitter />
-                  </a>
-                </li> */}
               </ul>
             </Col>
           </Row>

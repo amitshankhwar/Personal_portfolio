@@ -14,26 +14,26 @@ import {
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiLinux />
-        <p className="tech-icons-text">Linux</p>
+        {/* <p className="tech-icons-text">Linux</p> */}
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={1} className="tech-icons">
         <SiVisualstudiocode />
-        <p className="tech-icons-text">VS Code</p>
+        {/* <p className="tech-icons-text">VS Code</p> */}
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiPycharm />
         <p className="tech-icons-text">PyCharm</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </Col> */}
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiDocker />
         <p className="tech-icons-text">Docker</p>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+      </Col> */}
+      {/* <Col xs={4} md={2} className="tech-icons">
         <SiVercel />
         <p className="tech-icons-text">Vercel</p>
-      </Col>
+      </Col> */}
     </Row>
   );
 }

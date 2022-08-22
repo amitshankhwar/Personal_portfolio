@@ -2,13 +2,10 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/logo.png";
+import logonew from "../Assets/logonew.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
-import { ImBlog } from "react-icons/im";
 import {
-  AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
@@ -40,7 +37,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <img src={logonew} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -101,28 +98,6 @@ function NavBar() {
               >
                 <FiPhoneCall style={{ marginBottom: "2px" }} /> Contact
               </Nav.Link>
-            </Nav.Item>
-            
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/abhirams2020/abhirams2020_portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <AiFillStar style={{ fontSize: "1.1em" }} />{" "}
-                Star
-              </Button>
-            </Nav.Item>
-
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/abhirams2020/abhirams2020_portfolio/fork"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <VscRepoForked style={{ fontSize: "1.2em" }} />{" "}
-                Fork
-              </Button>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

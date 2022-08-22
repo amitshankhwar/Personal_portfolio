@@ -1,4 +1,5 @@
-html {
+tml {
+
   --section-background-color: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.582),
@@ -585,14 +586,14 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 2.2px solid rgba(200, 137, 230, 0.637) !important;
+  /* border: 2.2px solid rgba(200, 137, 230, 0.637) !important; */
   vertical-align: middle !important;
   text-align: center !important;
-  border-radius: 20px !important;
+  /* border-radius: 20px !important; */
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  /* box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important; */
   overflow: hidden !important;
-  transition: all 0.4s ease 0s !important;
+  /* transition: all 0.4s ease 0s !important; */
   backdrop-filter: blur(15px);
 }
 
@@ -602,13 +603,13 @@ button:focus {
   }
 }
 
-.tech-icons:hover {
+/* .tech-icons:hover {
   transform: scale(1.05) !important;
   transition: 0.5s !important;
   overflow: hidden !important;
   border: 2.2px solid rgba(197, 115, 230, 0.93) !important;
   box-shadow: 0 0 5px 5px rgba(129, 72, 144, 0.561) !important;
-}
+} */
 .tech-icon-images {
   padding: 20px !important;
   line-height: 1.6 !important;

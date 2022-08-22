@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import traffic from "../../Assets/Projects/traffic.png";
+import chat from "../../Assets/Projects/chat.png";
 import todo from "../../Assets/Projects/todo.png";
 import attendance from "../../Assets/Projects/attendance.png";
 
@@ -20,11 +20,11 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={traffic}
+              imgPath={chat}
               isBlog={false}
-              title="Traffic Signal Timing Optimization"
-              description="This project was an attempt to improve the efficiency of traffic flow and reduce traffic delay at intersections by using Ant Colony Optimization algorithm (ACO) and Genetic algorithm (GA). The ACO algorithm produced much better results and the total delay was reduced by 22%."
-              link="https://github.com/abhirams2020/Traffic-Signal-Optimization"
+              title="Dev Community"
+              description="This project is basically a real time chat with video call functionality for developers Where people can send invite to thier friends and all I use SocketIO as our signaling server for our application and for realtime communication as well as for Video call functionality I use WebRTC and for basic frontend React.js is used. "
+              link="https://github.com/amitshankhwar/ChatApp/tree/master"
             />
           </Col>
 
@@ -32,8 +32,8 @@ function Projects() {
             <ProjectCard
               imgPath={todo}
               isBlog={false}
-              title="Personal Schedule Manager"
-              description="This is a web app for managing schedules which notifies the user when task needs to be done. The features include user registration, setting time and date of task. This project introduced me to Web Development. This was done as a part of Genskill Fullstack Bootcamp."
+              title="Fashion Shop"
+              description="This is a full stack web application for buying men's and women's styling stuffs called 'Fashion Shop'. We have used React.js (styled-components), Redux for state management in frontend. "
               link="https://github.com/abhirams2020/personal-schedule-manager"
             />
           </Col>
@@ -42,33 +42,23 @@ function Projects() {
             <ProjectCard
               imgPath={attendance}
               isBlog={false}
-              title="Eduserver Attendance Automation Tool"
+              title="DSA Problems Tracker"
               description="By using python for web scraping, the program marks the attendance on Eduserver and opens the online class at the right time. Users can input username and password in the auto.py file and modify the timetable.py file to run the program and maintain 100% attendance."
               link="https://github.com/abhirams2020/eduserver-attendance-automate"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              // imgPath={suicide}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
+              title="My Portfolio Website"
               description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
               link="https://github.com/soumyajit4419/AI_For_Social_Good"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/*<Col md={4} className="project-card">
             <ProjectCard
               imgPath={emotion}
               isBlog={false}
@@ -77,7 +67,7 @@ function Projects() {
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
               link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
             />
-          </Col> */}
+          </Col> */} 
         </Row>
       </Container>
     </Container>

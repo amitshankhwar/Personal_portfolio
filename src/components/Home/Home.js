@@ -37,7 +37,7 @@ function Home() {
 
               <h1 className="heading-name">
                 I'm
-                <strong className="main-name"> Abhiram S</strong>
+                <strong className="main-name"> Amit Shankhwar</strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -64,10 +64,10 @@ function Home() {
                 LET ME <span className="purple"> INTRODUCE </span> MYSELF
               </h1>
               <p className="home-about-body">
-                I am a B.Tech graduate in Civil Engineering from <b className="purple">NIT Calicut</b> with a CGPA of 8.1.
+                I am a Integrated Btech + MBA student from <b className="purple">IIIT GWALIOR</b>
                 <br />
                 <br />I am proficient in langauges like
-                <b className="purple"> C++, Python, Javascript</b> and <b className="purple">SQL.</b>
+                <b className="purple"> C++, Python, Javascript</b> and <b className="purple">SQL,MongoDB</b>
                 <br />
                 <br />
                 My fields of interest are building and designing&nbsp;
@@ -99,20 +99,20 @@ function Home() {
           <Row>
             <Col md={12} className="home-about-social">
               <h1>MY <span className="purple">PROFILES</span></h1> <br></br>
-              {/* <p>
+               <p>
                 Feel free to <span className="purple">connect </span>with me
-              </p> */}
+              </p> 
               <ul className="home-about-social-links">
-                {/* <li className="social-icons">
+                 <li className="social-icons">
                   <a
-                    href="mailto: abhirams2020@gmail.com"
+                    href="mailto: amit18shankhwar@gmail.com"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
                   >
                     <GrMail />
                   </a>
-                </li>    */}   
+                </li>      
                 {/* <li className="social-icons">
                   <a
                     href="tel: +918921180389"
@@ -125,7 +125,7 @@ function Home() {
                 </li>    */}
                 <li className="social-icons">
                   <a
-                    href="https://www.linkedin.com/in/abhirams2020/"
+                    href="https://www.linkedin.com/in/amit-shankhwar-b95829196/"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
@@ -135,7 +135,7 @@ function Home() {
                 </li>              
                 <li className="social-icons">
                   <a
-                    href="https://github.com/abhirams2020"
+                    href="https://github.com/amitshankhwar"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
@@ -145,7 +145,7 @@ function Home() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://leetcode.com/abhirams2020"
+                    href="https://leetcode.com/damage100/"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"
@@ -155,7 +155,7 @@ function Home() {
                 </li>
                 <li className="social-icons">
                   <a
-                    href="https://auth.geeksforgeeks.org/user/abhirams2020/profile"
+                    href="https://auth.geeksforgeeks.org/user/amit18shankhwar/profile"
                     target="_blank"
                     rel="noreferrer"
                     className="icon-colour  home-social-icons"

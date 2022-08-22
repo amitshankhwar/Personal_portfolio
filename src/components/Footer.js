@@ -19,7 +19,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Made with ❤️ by Abhiram S</h3>
+          <h3>Made with ❤️ by Amit Shankhwar</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} </h3>
@@ -28,7 +28,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="mailto: abhirams2020@gmail.com"
+                href="mailto: amit18shankhwar@gmail.com"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -38,7 +38,7 @@ function Footer() {
             </li>   
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/abhirams2020/"
+                href="https://www.linkedin.com/in/amit-shankhwar-b95829196/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -48,7 +48,7 @@ function Footer() {
             </li>            
             <li className="social-icons">
               <a
-                href="https://github.com/abhirams2020"
+                href="https://github.com/amitshankhwar"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -58,7 +58,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://leetcode.com/abhirams2020"
+                href="https://leetcode.com/damage100/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -68,12 +68,12 @@ function Footer() {
             </li>            
             <li className="social-icons">
               <a
-                href="https://twitter.com/abhirams20201"
+                href="https://www.instagram.com/amit18shankhwar/"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiOutlineTwitter />
+                < AiFillInstagram />
               </a>
             </li>
 
