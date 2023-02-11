@@ -25,7 +25,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href='https://drive.google.com/file/d/1P9aqkDoNeaPHOJvkgku_6HoF_Z9ZLW7D/view?usp=sharing'
+            href='https://drive.google.com/file/d/1PkyIo3LtlUKyJcY267C75ZfR561LBQAL/view?usp=sharing'
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -34,12 +34,12 @@ function ResumeNew() {
           </Button>
         </Row>
 
-        <Row className="resume">
+        {/* <Row className="resume">
           <Document file={resumeLink} className="d-flex justify-content-center">
-            {/* <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} className="resume-doc"/> */}
+            <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} className="resume-doc"/>
             <Page pageNumber={1} scale={width > 786 ? 2 : 0.6}/>
           </Document>
-        </Row>
+        </Row> */}
 
         {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
