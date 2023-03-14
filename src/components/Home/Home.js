@@ -6,6 +6,7 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
+import myphoto from '../../Assets/myphoto.png';
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -16,7 +17,7 @@ import {
   SiLeetcode,
   SiGeeksforgeeks
 } from "react-icons/si";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaCircle, FaLinkedinIn } from "react-icons/fa";
 import {FiPhoneCall} from "react-icons/fi"
 import {GrMail} from "react-icons/gr";
 
@@ -92,7 +93,7 @@ function Home() {
             </Col>
             <Col md={4} className="myAvtar">
               <Tilt>
-                <img src={myImg} className="img-fluid" alt="avatar" />
+                <img src={myphoto} style={{borderRadius:"50%",verticalAlign:"middle", objectFit:"cover", height:"300px", width:"300px"}} className="img-fluid" alt="avatar" />
               </Tilt>
             </Col>
           </Row>
